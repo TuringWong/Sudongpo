@@ -65,7 +65,7 @@ class Model(dict, metaclass=ModelMetaclass):
         
     def execute(self,sql):
         try:
-            db = pymysql.connect("localhost","root","173904839","sudongpo" ,charset='utf8')
+            db = pymysql.connect("localhost","****","****","sudongpo" ,charset='utf8')
             #print('Successful connect!')
             crud = db.cursor()
             #print(self.values())
